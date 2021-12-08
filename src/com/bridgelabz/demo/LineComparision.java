@@ -46,5 +46,9 @@ public class LineComparision {
         //compare of the two lines
         System.out.println(r == res ? "equal" : "not equal");
 
+        //compare of two lines using compareto method
+        int e = Double.compare(r, res);
+        System.out.println("value:"+e);
+
     }
 }
